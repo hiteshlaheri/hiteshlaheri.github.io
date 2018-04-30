@@ -153,6 +153,7 @@ ul.list1 time {
 nav.bt-menu  ul li {
 	font: bold 18px/26px 'Open Sans', sans-serif;
 	color: #848282;
+        float: left;
 }
 
 .bt-menu ul {
@@ -166,6 +167,13 @@ nav.bt-menu  ul li {
 	text-align: center;
 	white-space: nowrap;
 	
+}
+.bt-menu li a {
+    display: block;
+    color: inherit;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 /*links*/
 
